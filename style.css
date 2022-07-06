@@ -55,7 +55,9 @@ body {
 #btn{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 10.5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10.8px;
     width: 7%;
     font-size: 18px;
     color: white;
