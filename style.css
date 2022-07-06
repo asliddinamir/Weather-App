@@ -19,7 +19,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 120vh;
+    height: 119vh;
 }
 .title{
     color: white;
