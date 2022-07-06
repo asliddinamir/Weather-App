@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 body { 
   font-family: 'Poppins', sans-serif !important;
@@ -20,7 +19,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 94vh;
+    height: 120vh;
 }
 .title{
     color: white;
@@ -34,15 +33,16 @@ body {
 }
 
 .input{
-    width: 100%;
-    padding: .8rem;
+    width: 80%;
+    position: relative;
 }
 .input input{
-    width: 80%;
-    padding: 10px;
+    width: 100%;
+    padding: 13px;
     background: #ccc;
     border-radius: 20px;
     border: none;
+    margin: 0;
 }
 
 .input input::placeholder{
@@ -53,15 +53,18 @@ body {
     background: rgb(255, 253, 253);
 }
 #btn{
-    border-radius: 20px;
-    padding: 8px;
-    width: 10%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10.5px;
+    width: 7%;
     font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 0;
 }
 @media(max-width:991px){
     #btn{
-        width: 50%;
-        margin-top: 1rem;
+        width: 20%;
     }
 }
 .info{
