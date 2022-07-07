@@ -1,4 +1,4 @@
 # Weather-App
 Weather App 
 
-Successfully  Deplued To https://asliddin.com/Weather-App/
+Successfully  Deployed To https://asliddin.com/Weather-App/
